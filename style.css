@@ -1,3 +1,4 @@
+/*CSS Reset*/
 * {
 	padding: 0;
 	margin: 0;
@@ -5,17 +6,58 @@
 }
 
 body{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Work Sans', sans-serif;
 }
 
 #projects {
-	background-color: #49475B;
+	background-color: #5D737E;
 }
 
-#bgsection {
+#landing {
 	background-color: #F3F3F3;
+	font-size: 60px;
 }
 
 #aboutme {
+	background-color: #ACBFA4;
+}
+
+#fontaboutme {
 	font-size: 50px;
+}
+
+#socmed {
+	font-size: 70px;
+}
+
+#contact {
+	background-color: #F3F3F3;
+}
+
+#status1 {
+	font-weight: bold;
+	color: black;
+	background-color: #85D6EA;
+	border-radius: 50px;
+	padding: 5px;
+	margin: 10px;
+}
+
+#status2 {
+	font-weight: bold;
+	color: black;
+	background-color: #FAF33E;
+	border-radius: 50px;
+	padding: 5px;
+	margin: 10px;
+}
+
+#form {
+	background-color: #ACBFA4;
+	padding: 15px;
+	border-radius: 20px;
+}
+
+#btn {
+	background-color: #5D737E;
 }
