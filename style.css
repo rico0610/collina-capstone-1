@@ -22,6 +22,11 @@ body{
 	background-color: #ACBFA4;
 }
 
+#resume {
+	background-color: #5D737E;
+	width: 180px;
+}
+
 #fontaboutme {
 	font-size: 50px;
 }
