@@ -25,7 +25,7 @@
 
 	<!-- Navbar Section Start -->
 
-		<nav class="navbar navbar-expand-lg navbar-light bg-white bg-gradient p-2 fixed-top">
+		<nav class="navbar navbar-expand-lg navbar-light bg-white bg-gradient p-2 fixed-top" id="nav">
 		  <div class="container-fluid">
 		    <a class="navbar-brand text-dark fw-bold" href="#landing">HOME</a>
 		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,7 +51,7 @@
 		<div class="container-fluid" id="landing">
 			<div class="row mt-4 mx-auto min-vh-100 d-flex justify-content-center align-items-center">
 				<!-- My Image Start -->
-				<div class="row mt-5 mb-lg-5 col-lg-4 col-sm-12 order-sm-1">
+				<div class="row mt-5 mb-lg-5 col-lg-4 col-sm-12 order-sm-1" id="img1">
 					<img class="img-fluid rounded-circle" src="./images/mypic.jpg">
 				</div>
 				<!-- My Image End -->
@@ -82,7 +82,9 @@
 				</div>
 
 				<div class="text-center mt-4">
-					<button type="submit" class="btn fw-bold rounded" id=resume>Download CV Here</button>
+					<a href="https://drive.google.com/file/d/1o1P-mXYozmv2QhQ_D84sDSj1tvn-40HA/view?usp=sharing">
+						<button type="submit" class="btn" id=resume >Download My CV Here</button>
+					</a>
 				</div>
 
 			</div>
@@ -123,15 +125,23 @@
 						    <div class="card-body">
 							      <h4 class="card-title fw-bold mt-4">Wed Developer Portfolio</h4>
 							      <h6 class="card-text text-white mt-4 mb-4">Designed a Web Dev portfolio using HTML, CSS, and Bootstrap5.</h6>
-							      <h6 id="status1">COMPLETED</h6>
+							      <div class="text-center mt-4">
+							      	<a href="https://rico0610.github.io/collina-capstone-1/">
+							      		<button type="submit" class="btn" id="status1" >COMPLETED</button>
+							      	</a>
+							      </div>
 						    </div>
 					  </div>
 					  <div class="card bg-gradient text-center col-lg-3 col-sm-12 mt-lg-3 offset-lg-1 bg-dark mb-sm-3">
 					  	    <img src="./images/dapps.jpg" class="mt-3 card-img-top img-fluid" alt="dapps">
 					  	    <div class="card-body">
-						  	      <h4 class="card-title fw-bold mt-4">Decentralised Applications</h4>
-						  	      <h6 class="card-text text-white mt-4 mb-4">Deployed smart contracts to Ethereum blockchain via EVM for developing dapps, such as a Decentralised Exchange.</h6>
-						  	      <h6 id="status2">FUTURE PROJECT</h6>
+						  	      <h4 class="card-title fw-bold mt-4">Simple DEX</h4>
+						  	      <h6 class="card-text text-white mt-4 mb-4">Developed a simple decentralized exchange using Javascript programming language.</h6>
+						  	      <div class="text-center mt-4">
+						  	      	<!-- <a href="paste the project link here"> -->
+						  	      		<button type="submit" class="btn" id="status2" >ONGOING</button>
+						  	      	<!-- </a> -->
+						  	      </div>
 					  	    </div>
 					  </div>
 					  <div class="card bg-gradient text-center col-lg-3 col-sm-12 mt-lg-3 offset-lg-1 bg-dark mb-sm-3">
@@ -139,7 +149,11 @@
 						    <div class="card-body">
 							      <h4 class="card-title fw-bold mt-4">NFT Marketplace</h4>
 							      <h6 class="card-text text-white mt-4 mb-4">Developed an NFT marketplace using Moralis - a firebase for Crypto.</h6>
-							      <h6 id="status2">FUTURE PROJECT</h6>
+							      <div class="text-center mt-4">
+						  	      	<!-- <a href="paste the project link here"> -->
+						  	      		<button type="submit" class="btn" id="status2" >FUTURE PROJECT</button>
+						  	      	<!-- </a> -->
+						  	      </div>
 						    </div>
 					  </div>
 				</div>
@@ -193,7 +207,7 @@
 				  	<textarea class="form-control" id="message" rows="7"></textarea>
 				  </div>
 
-				  <button type="submit" class="btn fw-bold" id=btn>Send Email</button>
+				  <button type="submit" class="btn2 fw-bold p-2 border rounded">Send Email</button>
 			</form>
 		</div>
 	<!-- Contact Me End -->
